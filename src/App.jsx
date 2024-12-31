@@ -41,8 +41,6 @@ function App() {
       }));
       setUser(modifiedData);
       setLoading(false);
-
-      console.log(modifiedData);
     } catch (error) {
       console.log(error);
       setUser([]);
